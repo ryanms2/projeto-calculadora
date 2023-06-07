@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <main>
+        <section id="entrada">
+            <h1>calculadora</h1>
+            <p id="para"></p>
+        </section>
+        <section id="botoes">
+            <input type="button" class="bntC" onclick="limpar()" value="AC">
+            <input type="button" class="bnt2" onclick="adicionarParenteses()" value="()">
+            <input type="button" class="bnt2" onclick="botao('%')" value="%">
+            <input type="button" class="bnt2" onclick="botao('/')" value="/">
+            <input type="button" class="bnt" onclick="botao('7')" value="7">
+            <input type="button" class="bnt" onclick="botao('8')" value="8">
+            <input type="button" class="bnt" onclick="botao('9')" value="9">
+            <input type="button" class="bnt2" onclick="botao('*')" value="X">
+            <input type="button" class="bnt" onclick="botao('4')" value="4">
+            <input type="button" class="bnt" onclick="botao('5')" value="5">
+            <input type="button" class="bnt" onclick="botao('6')" value="6">
+            <input type="button" class="bnt2" onclick="botao('-')" value="-">
+            <input type="button" class="bnt" onclick="botao('1')" value="1">
+            <input type="button" class="bnt" onclick="botao('2')" value="2">
+            <input type="button" class="bnt" onclick="botao('3')" value="3">
+            <input type="button" class="bnt2" onclick="botao('+')" value="+">
+            <input type="button" class="bnt" onclick="botao('0')" value="0">
+            <input type="button" onclick="botao('.')" class="bnt" value=".">
+            <input type="button" class="bnt" onclick="apaga()" value="&#x2B05">
+            <input type="button" class="bntC2" onclick="calcular()" value="=">
+        </section>
+    </main>
+    <script src="js/script.js" defer></script>
+</body>
+</html>

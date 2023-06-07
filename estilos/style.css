@@ -1,0 +1,118 @@
+@charset "UFT-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #717c89;
+}
+
+main {
+    width: 300px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#entrada {
+    height: 80px;
+    background-color: #1a1b25;
+    text-align: center;
+    border-radius: 20px 20px 3px 3px;
+    margin-bottom: 1px;
+    padding: 10px;
+}
+
+#entrada > h1 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#entrada > p {
+    position: relative;
+    text-align: right;
+    top: 30%;
+    color: rgba(234, 250, 255);
+}
+
+#botoes {
+    
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #1a1b25;
+    border-radius: 3px 3px  20px 20px;
+    padding: 10px;
+    
+}
+
+.bnt {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgba(0, 0, 0, 0.493);
+    margin: 5px;
+    color: rgb(234, 250, 255);
+    font-size: medium;
+}
+
+.bnt:hover {
+    background-color: rgba(65, 65, 65, 0.267);
+    cursor: pointer;
+}
+
+.bnt2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgba(73, 69, 69, 0.493);
+    margin: 5px;
+    color: rgb(234, 250, 255);
+    font-size: medium;
+}
+
+.bnt2:hover {
+    background-color: rgba(29, 29, 29, 0.425);
+    cursor: pointer;
+}
+
+.bntC {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgba(124, 67, 67, 0.493);
+    margin: 5px;
+    color: rgb(234, 250, 255);
+    font-size: medium;
+}
+
+.bntC:hover {
+    background-color: rgba(85, 45, 45, 0.596);
+    cursor: pointer;
+}
+
+.bntC2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 0;
+    background-color: rgba(57, 74, 110, 0.493);
+    margin: 5px;
+    color: rgb(234, 250, 255);
+    font-size: medium;
+}
+
+.bntC2:hover {
+    background-color: rgba(34, 44, 65, 0.541);
+    cursor: pointer;
+}
